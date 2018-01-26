@@ -9,5 +9,15 @@
   "author": "Lambda School",
   "license": "ISC",
   "dependencies": {
-  }
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JCamp-12/RDBMS-API-Mini.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JCamp-12/RDBMS-API-Mini/issues"
+  },
+  "homepage": "https://github.com/JCamp-12/RDBMS-API-Mini#readme"
 }
