@@ -1,4 +1,3 @@
-
 exports.up = function(knex, Promise) {
   // this code executes when we run the migration
   // create the zoo table
@@ -6,9 +5,14 @@ exports.up = function(knex, Promise) {
     tb1.increments(); // by default it will be called id
     
     tb1
-    .string('name', 255)
+    .string('zoo_name', 255)
     .notNullable()
-    .unique('name', 'uq_zoos_name');
+    .unique('zoo_name', 'uq_zoos_name');
+
+    tb1
+    .string('zoo_type', 255)
+    .notNullable()
+    .unique('zoo_type', 'uq_zoos_type');
     
     tb1
     .timestamp('created_at')
