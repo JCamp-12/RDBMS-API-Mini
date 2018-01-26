@@ -20,3 +20,6 @@ Databse - 'all your base belong to us'
   - id: primary key, automincrements.
   - name: unique, alphanumeric up to 255 characters long.
   - created_at: should automatically default to the current date and time.
+
+  6) migrate with knex
+    - command line input- knex migrate:make CreateZoosTable
