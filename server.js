@@ -6,6 +6,9 @@ const server = express();
 server.use(bodyParser.json());
 
 // endpoints here
+server.get('/', function(req, res) {
+    res.status(200).json({ success: true });
+});
 
 const port = 3000;
 server.listen(port, function() {

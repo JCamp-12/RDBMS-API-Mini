@@ -9,7 +9,8 @@ module.exports = {
   },
     migrations: {
       tableName: 'knex_migrations'
-    }
+    },
+    useNullAsDefault: true
   },
 
   production: {
@@ -28,5 +29,5 @@ module.exports = {
       tableName: 'knex_migrations'
     }
   }
-  
+
 };
